@@ -458,3 +458,112 @@ float: right;
 
 
 ![App Screenshot](./image%20lab4web/Screenshot%20(361).png)
+
+
+## Membuat Layout Contact me
+
+```bash
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Contact Me</h1>
+        </header>
+        <nav>
+            <a href="home.html" class="active">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+        <!-- service -->
+	<section class="service">
+		<div class="container">
+			<h3>CONTACT INFO : MIRANDA</h3>
+			<div class="box">
+				<div class="col-4">
+					<h4>Address :</h4>
+					<p>Cikarang Selatan,Kab.BEKASI</p>
+				</div>
+				<div class="col-4">
+					<h4>Email :</h4>
+					<p>mirandasiagian198@gmail.com</p>
+				</div>
+				<div class="col-4">
+					<h4>Hp :</h4>
+					<p>081366083182</p>
+				</div>
+			</div>
+        <section id="kontak">
+            <div class="login">
+                <input type="text" placeholder="Your Name" class="input">
+                <input type="text" placeholder="Your Email Address" class="input">
+            </div>
+
+            <div class="subject">
+                <input type="text" placeholder="Subject" class="input">
+            </div>
+
+            <div class="msg">
+                <textarea cols="35" rows="10" class="area" placeholder="Your Message" class="input"></textarea>
+            </div>
+
+            <button type="submit"> Send </button>
+
+        </section>
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>
+```
+
+## Tampilan Contact Me
+
+![App Screenshot](./image%20lab4web/Contactme.png)
+
+
+
+## Membuat Layout About 
+```bash
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1-0">
+	<title>about me</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>about me</h1>
+		</header>
+		<nav>
+			<a href="home.html" class="active">home</a>
+			<a href="artikel.html">artikel</a>
+			<a href="about.html">about</a>
+			<a href="kontak.html">kontak</a>
+		</nav>
+		<section id="introduce">
+			<div class="row">
+				<img src="nizar.jpg" title="miranda oktavia" alt="miranda oktavia" class="image-circle" width="230"style="float: left; border: 2px solid black;">
+				<h1>hello!</h1>
+				<p> nama saya miranda oktavia. saya adalah seorang mahasiswi dari <i>universitas pelita bangsa</i> yang saat ini sedang mempelajari materi layout CSS dalam mata kuliah <i>pemrograman web</i>.</p>
+			</div>
+		</section>
+	</div>
+</body>
+</html>
+
+```
+## Tampilan About
+
+![App Screenshot](./image%20lab4web/About.png)
