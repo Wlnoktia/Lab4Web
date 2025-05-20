@@ -1,8 +1,8 @@
 
 # Lab4Web PRAKTIKUM 3-PEMROGRAMAN WEB (CSS LAYOUT) 
-MIRANDA OKTAVIA SIAGIAN
+WAHYU WULAN OKTAVIA
 T1.23.C1
-312310008 
+312310066
 Modul Praktikum pemograman Lab4Web
 
 ## Modul Praktikum Pemograman Web
